@@ -69,42 +69,42 @@ Iteration 2 will simply redo some of the column headings in an attempt to improv
 2. map FellowshipLeader to 
 
 
-| TP | GC |
-| -- | -- |
-| PeopleId |  |
-| Title | Name Prefix |
-| FirstName | Given Name |
-| LastName | Family Name |
-| Address | Address 1 - Street |
-| Address2 | Address 1 - PO Box |
-| City | Address 1 - City |
-| State | Address 1 - Region |
-| Country | Address 1 - Country |
-| Zip | Address 1 - Postal Code |
-| Email | E-mail 1 - Value |
-| BirthDate | |
-| BirthDay |  |
-| JoinDate |  |
-| HomePhone | Phone 1 - Value |
-| CellPhone | Phone 2 - Value |
-| WorkPhone | Phone 3 - Value |
-| MemberStatus | Group Membership |
-| Age |  |
-| Married |  |
-| Wedding |  |
-| FamilyId |  |
-| FamilyPosition | Occupation |
-| Gender | Gender |
-| School |  |
-| Grade |  |
-| FellowshipLeader | Hobby |
-| AttendPctBF |  |
-| FellowshipClass | Notes |
-| AltName |  |
-| Employer |  |
-| OtherId |  |
-| Campus |  |
-| DecisionDate |  |
+| Index | TP | GC |
+| -- | -- | -- |
+| 0 | PeopleId |  |
+| 1 | Title | Name Prefix |
+| 2 | FirstName | Given Name |
+| 3 | LastName | Family Name |
+| 4 | Address | Address 1 - Street |
+| 5 | Address2 | Address 1 - PO Box |
+| 6 | City | Address 1 - City |
+| 7 | State | Address 1 - Region |
+| 8 | Country | Address 1 - Country |
+| 9 | Zip | Address 1 - Postal Code |
+| 10 | Email | E-mail 1 - Value |
+| 11 | BirthDate | |
+| 12 | BirthDay |  |
+| 13 | JoinDate |  |
+| 14 | HomePhone | Phone 1 - Value |
+| 15 | CellPhone | Phone 2 - Value |
+| 16 | WorkPhone | Phone 3 - Value |
+| 17 | MemberStatus | Group Membership |
+| 18 | Age |  |
+| 19 | Married |  |
+| 20 | Wedding |  |
+| 21 | FamilyId |  |
+| 22 | FamilyPosition | Occupation |
+| 23| Gender | Gender |
+| 24 | School |  |
+| 25 | Grade |  |
+| 26 | FellowshipLeader | Hobby |
+| 27 | AttendPctBF |  |
+| 28 | FellowshipClass | Notes |
+| 29 | AltName |  |
+| 30 | Employer |  |
+| 31 | OtherId |  |
+| 32 | Campus |  |
+| 33 | DecisionDate |  |
 
 **Results**
 1. Title is coming thru and doesn't seem worthwhile... change it back to Title (mapped to Name Prefix)
