@@ -66,11 +66,12 @@ func main() {
 		}
 		var row []string
 
-		// title -> name prefix
-		row = append(row, inrows[i][1])
+		// first and last names -> name
+		_name := inrows[i][2] + " " + inrows[i][3]
+		row = append(row, _name)
 		// first name -> given name
 		row = append(row, inrows[i][2])
-		// last name -> familuy name
+		// last name -> family name
 		row = append(row, inrows[i][3])
 		// address -> address 1 - street
 		row = append(row, inrows[i][4])
@@ -130,7 +131,7 @@ func main() {
 
 func makeHeader() []string {
 	h := make([]string, 19)
-	h[0] = "Name Prefix"
+	h[0] = "Name"
 	h[1] = "Given Name"
 	h[2] = "Family Name"
 	h[3] = "Address 1 - Street"
@@ -140,7 +141,7 @@ func makeHeader() []string {
 	h[7] = "Address 1 - Country"
 	h[8] = "Address 1 - Postal Code"
 	h[9] = "E-mail 1 - Value"
-	h[10] = "BirthDate"
+	h[10] = "Birthday"
 	h[11] = "Phone 1 - Type"
 	h[12] = "Phone 1 - Value"
 	h[13] = "Phone 2 - Type"
