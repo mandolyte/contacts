@@ -1,5 +1,21 @@
 # Combined Community and Shepherding resportsinc
 
+## Process Steps
+
+1. Download Shepherding report
+2. Download Community Group report
+ - Go to TP, click Involvements
+ - Click Search
+ - Enter "CG" for name
+ - Should return all community groups
+ - Click to download and select to Export Members
+ - Convert to CSV
+ - Upload to this folder
+3. Move them to this folder with appropriate names (see sample commands below)
+4. Then run the command to combine them
+5. Upload to Shepherding Committee folders or email
+
+
 Sample Command:
 ```sh
 $ go run cg-report.go -cg Community_2022-12-20.csv -sg Shepherding_2022-12-20.csv -o x.csv
