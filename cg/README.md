@@ -12,7 +12,7 @@
  - Convert to CSV; for example, by importing into Google sheets, then exporting
  - Upload to this folder
 3. Move them to this folder with appropriate names (see sample commands below)
-4. Then run the command to combine them
+4. Then execute the `run.sh` script to combine them
 5. Upload to Shepherding Committee folders or email
 
 
