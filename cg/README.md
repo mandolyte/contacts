@@ -1,4 +1,4 @@
-# Combined Community and Shepherding resportsinc
+# Combined Community and Shepherding Resport
 
 ## Process Steps
 
@@ -8,8 +8,8 @@
  - Click Search
  - Enter "CG" for name
  - Should return all community groups
- - Click to download and select to Export Members
- - Convert to CSV
+ - Click to download and select to Export Members (this will export from all the groups)
+ - Convert to CSV; for example, by importing into Google sheets, then exporting
  - Upload to this folder
 3. Move them to this folder with appropriate names (see sample commands below)
 4. Then run the command to combine them
