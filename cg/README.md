@@ -2,7 +2,13 @@
 
 ## Process Steps
 
-1. Download Shepherding report
+1. Download Shepherding report.
+ - Go to TP, then People, Saved Reports
+ - Run "SessionShepherdReport" and then click the download.
+ - It will download as People.xlsx
+ - Open in Google docs, save as a google spreadsheet
+ - Download as CSV
+ - Rename per convention "Shepherding_YYYY-MM-DD.csv
 2. Download Community Group report
  - Go to TP, click Involvements
  - Click Search
@@ -11,7 +17,7 @@
  - Click to download and select to Export Members (this will export from all the groups)
  - Convert to CSV; for example, by importing into Google sheets, then exporting
  - Upload to this folder
-3. Move them to this folder with appropriate names (see sample commands below)
+3. Move them to this folder with appropriate names
 4. Then execute the `run.sh` script to combine them
 5. Upload to Shepherding Committee folders or email
 
