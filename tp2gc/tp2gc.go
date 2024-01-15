@@ -92,15 +92,27 @@ func main() {
 		// home phone type
 		row = append(row, "Home")
 		// home phone value
-		row = append(row, inrows[i][14])
+		_homePhone := ""
+		if inrows[i][14] != "" {
+			_homePhone = "+1 " + inrows[i][14]
+		}
+		row = append(row, _homePhone)
 		// mobile phone type
 		row = append(row, "Mobile")
+		_mobilePhone := ""
+		if inrows[i][15] != "" {
+			_mobilePhone = "+1 " + inrows[i][15]
+		}
 		// mobile phone value
-		row = append(row, inrows[i][15])
+		row = append(row, _mobilePhone)
 		// work phone type
 		row = append(row, "Work")
+		_workPhone := ""
+		if inrows[i][16] != "" {
+			_workPhone = "+1 " + inrows[i][16]
+		}
 		// work phone value
-		row = append(row, inrows[i][16])
+		row = append(row, _workPhone)
 		// member status -> group membership
 		row = append(row, inrows[i][17])
 		// notes
